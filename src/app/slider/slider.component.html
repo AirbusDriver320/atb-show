@@ -1,0 +1,56 @@
+<div class="row my-5">
+    <div class="col-md-7">
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-end">
+                        <img src="{{ pageData.slider.slides[1].image }}" class="d-block w-75 img-margin">
+                        <img src="{{ pageData.slider.slides[0].image }}" class="d-block w-75 img-margin">
+                    </div>    
+                    <div class="text-end subtext">
+                        <p><b>{{ pageData.slider.slides[0].title }}</b>
+                            <svg class="mx-2 minus" id="i-minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                                <path d="M2 16 L30 16" />
+                            </svg>
+                            {{ pageData.slider.slides[0].id }}</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-end">
+                        <img src="{{ pageData.slider.slides[2].image }}" class="d-block w-75 img-margin">
+                        <img src="{{ pageData.slider.slides[1].image }}" class="d-block w-75 img-margin">
+                    </div> 
+                    <div class="text-end subtext">
+                        <p><b>{{ pageData.slider.slides[1].title }}</b>
+                            <svg class="mx-2 minus" id="i-minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                                <path d="M2 16 L30 16" />
+                            </svg>
+                            {{ pageData.slider.slides[1].id }}</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-end">
+                        <img src="{{ pageData.slider.slides[0].image }}" class="d-block w-75 img-margin">
+                        <img src="{{ pageData.slider.slides[2].image }}" class="d-block w-75 img-margin">
+                    </div> 
+                    <div class="text-end subtext">
+                        <p><b>{{ pageData.slider.slides[2].title }}</b>
+                            <svg class="mx-2 minus" id="i-minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                                <path d="M2 16 L30 16" />
+                            </svg>
+                            {{ pageData.slider.slides[2].id }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5 slider-desc">
+        <h1 class="display-6 mt-4">
+            <b>{{ pageData.slider.description }}</b>
+            <div class="mt-4">
+                <a href="#" role="button" class="img-button"><img src="{{ pageData.slider.leftArrow }}" data-bs-target="#carouselControls" data-bs-slide="prev"></a>
+                <a href="#" role="button" class="img-button"><img src="{{ pageData.slider.rightArrow }}" data-bs-target="#carouselControls" data-bs-slide="next"></a>
+            </div>    
+        </h1>
+    </div>
+</div>
