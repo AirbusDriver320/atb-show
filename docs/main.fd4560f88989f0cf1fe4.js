@@ -253,7 +253,7 @@ AppComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"myfont\">\n    <app-banner [pageData]=\"pageData\"></app-banner>\n    <app-firstsection [pageData]=\"pageData\"></app-firstsection>\n    <app-slider [pageData]=\"pageData\"></app-slider>\n    <app-thirdsection [pageData]=\"pageData\"></app-thirdsection>\n    <app-footer [pageData]=\"pageData\"></app-footer>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"content\"><span>atb-show app is running!</span> </div>\n<div class=\"myfont\">\n    <app-banner [pageData]=\"pageData\"></app-banner>\n    <app-firstsection [pageData]=\"pageData\"></app-firstsection>\n    <app-slider [pageData]=\"pageData\"></app-slider>\n    <app-thirdsection [pageData]=\"pageData\"></app-thirdsection>\n    <app-footer [pageData]=\"pageData\"></app-footer>\n</div>\n");
 
 /***/ }),
 
@@ -564,4 +564,4 @@ webpackEmptyAsyncContext.id = "zn8P";
 /***/ })
 
 },[[0,"runtime","vendor"]]]);
-//# sourceMappingURL=main.ad737b8855bfaeabe89c.js.map
+//# sourceMappingURL=main.fd4560f88989f0cf1fe4.js.map
