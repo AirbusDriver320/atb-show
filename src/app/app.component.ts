@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  url = 'http://prishtinatask.scoopandspoon.at/api/page.php';
+  url = 'https://rest-api-mern.herokuapp.com/products/atb';
   pageData = {};
 
   constructor(private http: HttpClient) {
